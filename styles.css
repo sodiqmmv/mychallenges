@@ -1,0 +1,76 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+body {
+    background-color: hsl(47, 88%, 63%);
+}
+.blog {
+    background-color: white;
+    border: 1px black solid;
+    border-radius: 15px;
+    box-shadow: 5px 5px;
+    height: 360px;
+    width: 270px;
+    position: relative;
+    top: 190px;
+    left: 595px;
+    font-family: 'Figtree', sans-serif;
+}
+.blog img {
+    width: 240px;
+    border: 1px;
+    border-radius: 8px;
+    position: absolute;
+    left: 15px;
+    top: 15px;
+}
+.learning {
+    color: black;
+    font-size: 10px;
+    font-weight: 700;
+    position: absolute;
+    top: 170px;
+    left: 15px;
+    /* border: hsl(47, 88%, 63%) solid; */
+    border-radius: 5px;
+    padding: 5px 10px;
+    background-color: hsl(47, 88%, 63%);
+}
+.publish {
+    position: absolute;
+    top: 200px;
+    left: 15px;
+    font-size: 10px;
+}
+.blog h1 {
+    position: absolute;
+    top: 220px;
+    left: 15px;
+    font-size: 18px;
+}
+.p-3 {
+    position: absolute;
+    top: 250px;
+    left: 15px;
+    font-size: 10px;
+    line-height: 1.6;
+    width: 220px;
+    opacity: 0.6;
+}
+.avatar {
+    display: flex;
+}
+.avatar img {
+    position: absolute;
+    width: 23px;
+    top: 320px;
+    left: 15px;
+}
+.avatar p {
+    position: absolute;
+    font-size: 10px;
+    top: 325px;
+    left: 50px;
+    font-weight: 550;
+}
